@@ -1,0 +1,12 @@
+{
+    "cmake.configureArgs": [
+        "-DCMAKE_PREFIX_PATH=D:/_DEV/_QT_SDK/6.9.3/msvc2022_64"
+    ],
+    "files.associations": {
+        "qmediaplayer": "cpp",
+        "qdialog": "cpp",
+        "chrono": "cpp",
+        "optional": "cpp",
+        "system_error": "cpp"
+    }
+}

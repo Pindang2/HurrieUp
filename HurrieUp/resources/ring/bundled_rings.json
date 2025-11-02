@@ -1,0 +1,29 @@
+{
+    "bundled_rings": [
+        {
+            "name": "기본 알림음",
+            "description": "기본으로 제공되는 가장 기본적이고 심플한 알림음입니다.",
+            "license": "Pixabay Content License",
+            "author": "Universfield",
+            "file": "new-notification-026-380249.mp3"
+        },{
+            "name": "New Notification 09",
+            "description": "짧은 실로폰 3연음.",
+            "license": "Pixabay Content License",
+            "author": "Universfield",
+            "file": "new-notification-09-352705.mp3"
+        },{
+            "name": "New Notification 22",
+            "description": "딩동딩🎵",
+            "license": "Pixabay Content License",
+            "author": "Universfield",
+            "file": "new-notification-022-370046.mp3"
+        },{
+            "name": "New Notification 24",
+            "description": "너무 익숙한 단 두 개의 실로폰 사운드.",
+            "license": "Pixabay Content License",
+            "author": "Universfield",
+            "file": "new-notification-024-370048.mp3"
+        }
+    ]
+}

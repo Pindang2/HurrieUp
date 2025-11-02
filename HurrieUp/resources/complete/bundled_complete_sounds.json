@@ -1,0 +1,23 @@
+{
+    "bundled_complete_sounds": [
+        {
+            "name": "기본",
+            "description": "기본으로 제공되는 가장 기본적이고 심플한 알림음입니다.",
+            "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+            "author": "Pindang2",
+            "file": "default.wav"
+        },{
+            "name":"허리펴 록버전",
+            "description":"록 스피릿이 느껴지는 허리펴 알림음입니다.",
+            "license":"Free for commercial use (OpenAI Sora)",
+            "author":"Pindang2 + OpenAI Sora",
+            "file":"rockhurry.wav"
+        },{
+            "name":"피쳐폰 시보리얼",
+            "description":"피쳐폰 시보리얼 느낌의 허리펴 알림음입니다.",
+            "license":"Creative Commons Attribution 4.0 International (CC BY 4.0)",
+            "author":"Pindang2",    
+            "file":"flipphone_hurry.wav"
+        }
+    ]
+}

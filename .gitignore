@@ -1,0 +1,55 @@
+# Build output directory
+out/
+
+# Common build artifacts
+build/
+cmake-build*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.exe
+*.ilk
+*.pdb
+
+# Qt/CMake resource files
+*.qrc
+
+# Qt Creator
+*.pro.user
+
+# Visual Studio / clang on Windows
+/.vs/
+*.vcxproj*
+
+# Editor temporary files
+*.swp
+*.swo
+*~
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Translation/compiled files (keep sources under version control)
+*.qm
+
+# AI / prompts / out-of-repo artifacts
+# output folder for generated files
+out/
+
+# Prompt files for AI tools or experiments
+prompts/
+ai_prompts/
+*.prompt
+*.prompt.txt
+*.request
+
+# Common local configuration for scripts/tools
+.env
+env/
+
+# Installer build artifacts
+installer/deploy/
+installer/output/
+venv/

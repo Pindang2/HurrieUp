@@ -1,0 +1,179 @@
+{
+    "bundled_voices": [
+        {
+            "name": "기본 음성",
+            "description": "기본으로 제공되는 가장 기본적이고 심플한 음성입니다. [Supertone Play / Kate]",
+            "license": "Supertone Play Terms of Service",
+            "author": "Supertone Play",
+            "file": "Default.wav"
+        },{
+            "name": "[SUPERTONE/Se-A] 허리 펼 시간",
+            "description": "\"음.. 허리 펼 시간이야!\"",
+            "license": "Supertone Play Terms of Service",
+            "author": "Supertone Play",
+            "file": "SUPERTONE/001.SUPERTONE_Se-A_HmmHurry.wav"
+        },{
+            "name": "[SUPERTONE/Se-A] 허리 또 굽는다",
+            "description": "\"어어어어 이거봐 허리 또 굽는다!\"",
+            "license": "Supertone Play Terms of Service",
+            "author": "Supertone Play",
+            "file": "SUPERTONE/002.SUPERTONE_Se-A_MataHurry.wav"
+        },{
+            "name": "[SUPERTONE/Se-A] 허리 수술에 삼천만원",
+            "description": "\"허리 수술에 삼천만원이나 한대..\"",
+            "license": "Supertone Play Terms of Service",
+            "author": "Supertone Play",
+            "file": "SUPERTONE/003.SUPERTONE_Se-A_Hurry3000.wav"
+        },{
+            "name": "[SUPERTONE/Yejin] 허리 펼 시간이에요",
+            "description": "\"허리 펼 시간이에요!\"",
+            "license": "Supertone Play Terms of Service",
+            "author": "Supertone Play",
+            "file": "SUPERTONE/004.SUPERTONE_Yejin_HurryTime.wav"
+        },{
+            "name": "[SUPERTONE/Dustin] 허리를 펴도록 합시다",
+            "description": "\"허리를 펴도록 합시다.\"",
+            "license": "Supertone Play Terms of Service",
+            "author": "Supertone Play",
+            "file": "SUPERTONE/005.SUPERTONE_Dustin_LetsHurry.wav"
+        },{
+            "name": "[SUPERTONE/Dustin] 허리와 손목 스트레칭",
+            "description": "\"허리를 펴고, 손목을 스트레칭하도록 합시다.\"",
+            "license": "Supertone Play Terms of Service",
+            "author": "Supertone Play",
+            "file": "SUPERTONE/006.SUPERTONE_Dustin_LetsHurryAndTekubi.wav"
+        },{
+            "name": "[SUPERTONE/Dustin] 허리에 양보하세요",
+            "description": "\"먹지 말고? 허리에 양보하세요.\"",
+            "license": "Supertone Play Terms of Service",
+            "author": "Supertone Play",
+            "file": "SUPERTONE/007.SUPERTONE_Dustin_HurryYangbo.wav"
+        },{
+            "name": "[SUPERTONE/Hannah] 허리를 펼 시간",
+            "description": "\"허리를 펼 시간이 되었어요.\"",
+            "license": "Supertone Play Terms of Service",
+            "author": "Supertone Play",
+            "file": "SUPERTONE/008.SUPERTONE_Hannah_HurryTime.wav"
+        },{
+            "name": "[SUPERTONE/Hannah] 허리 수술 약 삼천 만원",
+            "description": "\"그거 아세요? 허리 수술에 약 삼천 만원 한대요.\"",
+            "license": "Supertone Play Terms of Service",
+            "author": "Supertone Play",
+            "file": "SUPERTONE/009.SUPERTONE_Hannah_DoYouKnowHurry3000.wav"
+        },{
+            "name": "[SUPERTONE/Akari] 이쁘게 허리 펴기",
+            "description": "\"어머, 얘 봐. 허리도 이쁘게 펴니 얼마나 이뻐.\"",
+            "license": "Supertone Play Terms of Service",
+            "author": "Supertone Play",
+            "file": "SUPERTONE/010.SUPERTONE_Akari_HurryBeauty.wav"
+        },{
+            "name": "[SUPERTONE/Tilly] 허리랑 손목 펼 시간",
+            "description": "\"허리 펼 시간이야. 하는 김에 손목도.\"",
+            "license": "Supertone Play Terms of Service",
+            "author": "Supertone Play",
+            "file": "SUPERTONE/011.SUPERTONE_Tilly_HurryAndTekubiTime.wav"
+        },{
+            "name": "[SUPERTONE/Tilly] 멈추지 않는 허리",
+            "description": "\"내 허리가 멈추지 않는 탓일까? ㅜ.ㅜ\"",
+            "license": "Supertone Play Terms of Service",
+            "author": "Supertone Play",
+            "file": "SUPERTONE/012.SUPERTONE_Tilly_BecauseMyHurryNotStop.wav"
+        },{
+            "name": "[SUPERTONE/Suho] 허리펴 알림",
+            "description": "\"설정하신 허리펴 알림입니다.\"",
+            "license": "Supertone Play Terms of Service",
+            "author": "Supertone Play",
+            "file": "SUPERTONE/013.SUPERTONE_Suho_HurryAlert.wav"
+        },{
+            "name": "[SUPERTONE/Suho] 올곧은 허리 유지",
+            "description": "\"허리를 올곧게 유지하십시오.\"",
+            "license": "Supertone Play Terms of Service",
+            "author": "Supertone Play",
+            "file": "SUPERTONE/014.SUPERTONE_Suho_KeepYourHurry.wav"
+        },{
+            "name": "[SUPERTONE/Ora] 허리를 폈구나!",
+            "description": "\"좋아. 허리를 폈구나! 멋져!\"",
+            "license": "Supertone Play Terms of Service",
+            "author": "Supertone Play",
+            "file": "SUPERTONE/015.SUPERTONE_Ora_HurrySteki.wav"
+        },{
+            "name": "[SUPERTONE/Ora] 허리가 또 굽었나",
+            "description": "\"허리가 또 굽은 거 아니지..?\"",
+            "license": "Supertone Play Terms of Service",
+            "author": "Supertone Play",
+            "file": "SUPERTONE/016.SUPERTONE_Ora_HurryWonder.wav"
+        },{
+            "name": "[SUPERTONE/Ora] 허리 펴!",
+            "description": "\"허리 펴!\"",
+            "license": "Supertone Play Terms of Service",
+            "author": "Supertone Play",
+            "file": "SUPERTONE/017.SUPERTONE_Ora_HurryUp.wav"
+        },{
+            "name": "[SUPERTONE/Eddie] 올곧은 허리 유지",
+            "description": "\"허리를 올곧게 유지합시다.\"",
+            "license": "Supertone Play Terms of Service",
+            "author": "Supertone Play",
+            "file": "SUPERTONE/018.SUPERTONE_Eddie_KeepYourHurry.wav"
+        },{
+            "name": "[SUPERTONE/Eddie] 소중한 허리 지키기",
+            "description": "\"소중한 허리를 지켜주세요.\"",
+            "license": "Supertone Play Terms of Service",
+            "author": "Supertone Play",
+            "file": "SUPERTONE/019.SUPERTONE_Eddie_KeepYourDaijinHurry.wav"
+        },{
+            "name": "[SUPERTONE/Yoonho] 척추수술 팔천만원",
+            "description": "\"그거 알아? 척추수술 사실 팔천만원이래.\"",
+            "license": "Supertone Play Terms of Service",
+            "author": "Supertone Play",
+            "file": "SUPERTONE/020.SUPERTONE_Yoonho_DoUKnowHurry8000.wav"
+        },{
+            "name": "[SUPERTONE/Yoonho] 또 허리 굽는다",
+            "description": "\"어어 또 허리 굽는다!\"",
+            "license": "Supertone Play Terms of Service",
+            "author": "Supertone Play",
+            "file": "SUPERTONE/021.SUPERTONE_Yoonho_HurryMata.wav"
+        },{
+            "name": "[SUPERTONE/Yoonho] 척추수술 7천만원",
+            "description": "\"척추수술. 견적. 7천만원이야. ㅎㅎ.\"",
+            "license": "Supertone Play Terms of Service",
+            "author": "Supertone Play",
+            "file": "SUPERTONE/022.SUPERTONE_Yoonho_HurryIs7000.wav"
+        },{
+            "name": "[SUPERTONE/Yoonho] 저기... 허리...",
+            "description": "\"저기..... 허리......\"",
+            "license": "Supertone Play Terms of Service",
+            "author": "Supertone Play",
+            "file": "SUPERTONE/023.SUPERTONE_Yoonho_AnoHurry.wav"
+        },{
+            "name": "[SUPERTONE/Yoonho] 허리.",
+            "description": "\"허리.\"",
+            "license": "Supertone Play Terms of Service",
+            "author": "Supertone Play",
+            "file": "SUPERTONE/024.SUPERTONE_Yoonho_HurrySimple.wav"
+        },{
+            "name": "[SUPERTONE/Grace] 용사님, 또 굽은 허리",
+            "description": "\"용사님, 허리가 또 굽으셨군요!\"",
+            "license": "Supertone Play Terms of Service",
+            "author": "Supertone Play",
+            "file": "SUPERTONE/025.SUPERTONE_Grace_YongsaHurryMata.wav"
+        },{
+            "name": "[SUPERTONE/Grace] 척추의 마을",
+            "description": "\"척추의 마을에 오신 것을 환영합니다.\"",
+            "license": "Supertone Play Terms of Service",
+            "author": "Supertone Play",
+            "file": "SUPERTONE/026.SUPERTONE_Grace_WelcomeToHurryMura.wav"
+        },{
+            "name": "[SUPERTONE/Cheeky] 허접.",
+            "description": "\"허어어어어접.\"",
+            "license": "Supertone Play Terms of Service",
+            "author": "Supertone Play",
+            "file": "SUPERTONE/027.SUPERTONE_Cheeky_Huuuuuuujub.wav"
+        },{
+            "name": "[SUPERTONE/Cheeky] 허리.",
+            "description": "\"허어어어어리.\"",
+            "license": "Supertone Play Terms of Service",
+            "author": "Supertone Play",
+            "file": "SUPERTONE/028.SUPERTONE_Cheeky_Huuuuuuury.wav"
+        }
+    ]
+}
