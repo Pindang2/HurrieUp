@@ -1,0 +1,44 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/complete/bundled_complete_sounds.json</file>
+        <file>resources/complete/default.wav</file>
+        <file>resources/complete/rockhurry.wav</file>
+        <file>resources/complete/flipphone_hurry.wav</file>
+        <file>resources/ring/bundled_rings.json</file>
+        <file>resources/ring/new-notification-09-352705.mp3</file>
+        <file>resources/ring/new-notification-022-370046.mp3</file>
+        <file>resources/ring/new-notification-024-370048.mp3</file>
+        <file>resources/ring/new-notification-026-380249.mp3</file>
+        <file>resources/icon.png</file>
+        <file>resources/voice/bundled_voices.json</file>
+        <file>resources/voice/Default.wav</file>
+        <file>resources/voice/SUPERTONE/001.SUPERTONE_Se-A_HmmHurry.wav</file>
+        <file>resources/voice/SUPERTONE/002.SUPERTONE_Se-A_MataHurry.wav</file>
+        <file>resources/voice/SUPERTONE/003.SUPERTONE_Se-A_Hurry3000.wav</file>
+        <file>resources/voice/SUPERTONE/004.SUPERTONE_Yejin_HurryTime.wav</file>
+        <file>resources/voice/SUPERTONE/005.SUPERTONE_Dustin_LetsHurry.wav</file>
+        <file>resources/voice/SUPERTONE/006.SUPERTONE_Dustin_LetsHurryAndTekubi.wav</file>
+        <file>resources/voice/SUPERTONE/007.SUPERTONE_Dustin_HurryYangbo.wav</file>
+        <file>resources/voice/SUPERTONE/008.SUPERTONE_Hannah_HurryTime.wav</file>
+        <file>resources/voice/SUPERTONE/009.SUPERTONE_Hannah_DoYouKnowHurry3000.wav</file>
+        <file>resources/voice/SUPERTONE/010.SUPERTONE_Akari_HurryBeauty.wav</file>
+        <file>resources/voice/SUPERTONE/011.SUPERTONE_Tilly_HurryAndTekubiTime.wav</file>
+        <file>resources/voice/SUPERTONE/012.SUPERTONE_Tilly_BecauseMyHurryNotStop.wav</file>
+        <file>resources/voice/SUPERTONE/013.SUPERTONE_Suho_HurryAlert.wav</file>
+        <file>resources/voice/SUPERTONE/014.SUPERTONE_Suho_KeepYourHurry.wav</file>
+        <file>resources/voice/SUPERTONE/015.SUPERTONE_Ora_HurrySteki.wav</file>
+        <file>resources/voice/SUPERTONE/016.SUPERTONE_Ora_HurryWonder.wav</file>
+        <file>resources/voice/SUPERTONE/017.SUPERTONE_Ora_HurryUp.wav</file>
+        <file>resources/voice/SUPERTONE/018.SUPERTONE_Eddie_KeepYourHurry.wav</file>
+        <file>resources/voice/SUPERTONE/019.SUPERTONE_Eddie_KeepYourDaijinHurry.wav</file>
+        <file>resources/voice/SUPERTONE/020.SUPERTONE_Yoonho_DoUKnowHurry8000.wav</file>
+        <file>resources/voice/SUPERTONE/021.SUPERTONE_Yoonho_HurryMata.wav</file>
+        <file>resources/voice/SUPERTONE/022.SUPERTONE_Yoonho_HurryIs7000.wav</file>
+        <file>resources/voice/SUPERTONE/023.SUPERTONE_Yoonho_AnoHurry.wav</file>
+        <file>resources/voice/SUPERTONE/024.SUPERTONE_Yoonho_HurrySimple.wav</file>
+        <file>resources/voice/SUPERTONE/025.SUPERTONE_Grace_YongsaHurryMata.wav</file>
+        <file>resources/voice/SUPERTONE/026.SUPERTONE_Grace_WelcomeToHurryMura.wav</file>
+        <file>resources/voice/SUPERTONE/027.SUPERTONE_Cheeky_Huuuuuuujub.wav</file>
+        <file>resources/voice/SUPERTONE/028.SUPERTONE_Cheeky_Huuuuuuury.wav</file>
+    </qresource>
+</RCC>
