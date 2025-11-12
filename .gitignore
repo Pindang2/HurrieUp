@@ -14,6 +14,7 @@ Makefile
 
 # Qt/CMake resource files
 *.qrc
+!resources.qrc
 
 # Qt Creator
 *.pro.user
