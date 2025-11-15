@@ -2,14 +2,14 @@
 ; https://jrsoftware.org/isinfo.php
 
 #define MyAppName "HurrieUp"
-#define MyAppVersion "1.0.0"
+#define MyAppVersion "1.0.1"
 #define MyAppPublisher "HurrieUp Team"
 #define MyAppURL "https://github.com/yourusername/HurrieUp"
 #define MyAppExeName "HurrieUp.exe"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
-AppId={{8D7A4C3E-9B2F-4E1A-A5D6-1C3E4F5A6B7C}
+AppId={8D7A4C3E-9B2F-4E1A-A5D6-1C3E4F5A6B7C}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 AppPublisher={#MyAppPublisher}
