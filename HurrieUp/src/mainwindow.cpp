@@ -191,26 +191,35 @@ void MainWindow::playSounds()
             qDebug() << "No complete sounds selected!";
         }
     } else {
-        if (!ringPaths.isEmpty() && !voicePaths.isEmpty()) {
-            // Pick random ring and voice sounds
+        bool hasRing = !ringPaths.isEmpty();
+        bool hasVoice = !voicePaths.isEmpty();
+        
+        if (!hasRing && !hasVoice) {
+            qDebug() << "No ring or voice sounds selected!";
+            return;
+        }
+        
+        // Play ring sound if available
+        if (hasRing) {
             int ringIndex = QRandomGenerator::global()->bounded(ringPaths.size());
-            int voiceIndex = QRandomGenerator::global()->bounded(voicePaths.size());
-            
             QString selectedRing = ringPaths[ringIndex];
-            QString selectedVoice = voicePaths[voiceIndex];
-            
             qDebug() << "Playing random ring sound:" << selectedRing;
             ringPlayer->setSource(QUrl(selectedRing));
             ringPlayer->play();
-
-            // Play voice after a delay
-            QTimer::singleShot(soundGap, this, [this, selectedVoice](){
-                qDebug() << "Playing random voice after" << soundGap << "ms delay:" << selectedVoice;
+        }
+        
+        // Play voice sound after a delay if available
+        if (hasVoice) {
+            int voiceIndex = QRandomGenerator::global()->bounded(voicePaths.size());
+            QString selectedVoice = voicePaths[voiceIndex];
+            
+            // If ring exists, play voice after delay; otherwise play immediately
+            int delay = hasRing ? soundGap : 0;
+            QTimer::singleShot(delay, this, [this, selectedVoice, delay](){
+                qDebug() << "Playing random voice" << (delay > 0 ? QString("after %1ms delay:").arg(delay) : "immediately:") << selectedVoice;
                 voicePlayer->setSource(QUrl(selectedVoice));
                 voicePlayer->play();
             });
-        } else {
-            qDebug() << "No ring or voice sounds selected!";
         }
     }
 }
