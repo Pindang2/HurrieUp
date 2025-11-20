@@ -15,6 +15,7 @@ Makefile
 # Qt/CMake resource files
 *.qrc
 !resources.qrc
+!translations.qrc
 
 # Qt Creator
 *.pro.user
@@ -36,6 +37,7 @@ Thumbs.db
 *.qm
 
 # AI / prompts / out-of-repo artifacts
+project_description_for_ai.md
 # output folder for generated files
 out/
 

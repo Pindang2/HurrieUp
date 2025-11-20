@@ -36,7 +36,7 @@ void AboutDialog::setupUI()
     mainLayout->addWidget(titleLabel);
 
     // Version
-    versionLabel = new QLabel("Community Edition Beta 1.0\nBy Pindang2", this);
+    versionLabel = new QLabel("Community Edition Beta 1.0.1\nBy Pindang2", this);
     QFont versionFont;
     versionFont.setPointSize(16);
     versionFont.setBold(true);
@@ -137,10 +137,11 @@ void AboutDialog::setupUI()
 
 void AboutDialog::openLicenseUrl()
 {
-    QDesktopServices::openUrl(QUrl("https://www.gnu.org/licenses/lgpl-3.0.html"));
+    QDesktopServices::openUrl(QUrl("https://scripts.pindang2.com/hurrieup/osl"));
 }
 
 void AboutDialog::openGithubUrl()
 {
     QDesktopServices::openUrl(QUrl("https://github.com/Pindang2/HurrieUp"));
 }
+

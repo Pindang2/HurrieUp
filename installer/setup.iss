@@ -2,7 +2,7 @@
 ; https://jrsoftware.org/isinfo.php
 
 #define MyAppName "HurrieUp"
-#define MyAppVersion "1.0.0"
+#define MyAppVersion "1.0.1"
 #define MyAppPublisher "HurrieUp Team"
 #define MyAppURL "https://github.com/yourusername/HurrieUp"
 #define MyAppExeName "HurrieUp.exe"

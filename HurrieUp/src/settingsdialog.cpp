@@ -321,32 +321,43 @@ void SettingsDialog::onPreviewClicked()
             previewPlayer1->play();
         } else {
             qDebug() << "No complete sound selected";
+            QMessageBox::information(this, tr("Preview"), tr("Please select at least one complete sound to preview."));
         }
     } else {
-        // Combination mode - play random ring then random voice
+        // Combination mode - play random ring and/or random voice
         QStringList selectedRings = ringPaths();
         QStringList selectedVoices = voicePaths();
         
-        if (!selectedRings.isEmpty() && !selectedVoices.isEmpty()) {
+        bool hasRing = !selectedRings.isEmpty();
+        bool hasVoice = !selectedVoices.isEmpty();
+        
+        if (!hasRing && !hasVoice) {
+            qDebug() << "No ring or voice sound selected";
+            QMessageBox::information(this, tr("Preview"), tr("Please select at least one ring sound or voice sound to preview."));
+            return;
+        }
+        
+        // Play ring sound if available
+        if (hasRing) {
             int ringIndex = QRandomGenerator::global()->bounded(selectedRings.size());
-            int voiceIndex = QRandomGenerator::global()->bounded(selectedVoices.size());
-            
             QString ringSoundPath = selectedRings[ringIndex];
-            QString voiceSoundPath = selectedVoices[voiceIndex];
-            int gap = ui->soundGapSpinBox->value();
-            
             qDebug() << "Preview ring sound:" << ringSoundPath;
             previewPlayer1->setSource(QUrl(ringSoundPath));
             previewPlayer1->play();
+        }
+        
+        // Play voice sound after a delay if available
+        if (hasVoice) {
+            int voiceIndex = QRandomGenerator::global()->bounded(selectedVoices.size());
+            QString voiceSoundPath = selectedVoices[voiceIndex];
             
-            // Play voice after gap
-            QTimer::singleShot(gap, this, [this, voiceSoundPath](){
-                qDebug() << "Preview voice sound:" << voiceSoundPath;
+            // If ring exists, play voice after gap; otherwise play immediately
+            int delay = hasRing ? ui->soundGapSpinBox->value() : 0;
+            QTimer::singleShot(delay, this, [this, voiceSoundPath, delay](){
+                qDebug() << "Preview voice sound" << (delay > 0 ? QString("after %1ms:").arg(delay) : "immediately:") << voiceSoundPath;
                 previewPlayer2->setSource(QUrl(voiceSoundPath));
                 previewPlayer2->play();
             });
-        } else {
-            qDebug() << "No ring or voice sound selected";
         }
     }
 }

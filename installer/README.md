@@ -73,14 +73,14 @@ PowerShell에서 다음 명령을 실행하세요:
 
 인스톨러는 다음 경로에 생성됩니다:
 ```
-installer\output\HurrieUp-Setup-1.0.0.exe
+installer\output\HurrieUp-Setup-1.0.1.exe
 ```
 
 ## 인스톨러 설정 수정
 
 `installer\setup.iss` 파일을 편집하여 다음 항목을 수정할 수 있습니다:
 
-- **앱 버전**: `#define MyAppVersion "1.0.0"`
+- **앱 버전**: `#define MyAppVersion "1.0.1"`
 - **게시자 정보**: `#define MyAppPublisher "HurrieUp Team"`
 - **URL**: `#define MyAppURL "https://github.com/yourusername/HurrieUp"`
 - **앱 아이콘**: `SetupIconFile=..\HurrieUp\resources\app_icon.ico`
