@@ -35,12 +35,12 @@
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="95"/>
-        <location filename="../src/mainwindow.cpp" line="236"/>
+        <location filename="../src/mainwindow.cpp" line="245"/>
         <source>HurrieUp</source>
         <translation>ハリーアップ</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="222"/>
+        <location filename="../src/mainwindow.cpp" line="231"/>
         <source>HurrieUp (Paused)</source>
         <translation>ハリーアップ (一時停止中)</translation>
     </message>
@@ -118,58 +118,74 @@
         <translation>➕ カスタム音声を追加</translation>
     </message>
     <message>
-        <location filename="../src/settingsdialog.cpp" line="405"/>
+        <location filename="../src/settingsdialog.cpp" line="324"/>
+        <location filename="../src/settingsdialog.cpp" line="336"/>
+        <source>Preview</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/settingsdialog.cpp" line="324"/>
+        <source>Please select at least one complete sound to preview.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/settingsdialog.cpp" line="336"/>
+        <source>Please select at least one ring sound or voice sound to preview.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/settingsdialog.cpp" line="416"/>
         <source>Select Sound File</source>
         <translation>サウンドファイルを選択</translation>
     </message>
     <message>
-        <location filename="../src/settingsdialog.cpp" line="407"/>
+        <location filename="../src/settingsdialog.cpp" line="418"/>
         <source>Audio Files (*.wav *.mp3 *.ogg *.flac *.m4a);;All Files (*.*)</source>
         <translation>オーディオファイル (*.wav *.mp3 *.ogg *.flac *.m4a);;すべてのファイル (*.*)</translation>
     </message>
     <message>
-        <location filename="../src/settingsdialog.cpp" line="417"/>
+        <location filename="../src/settingsdialog.cpp" line="428"/>
         <source>Sound Name</source>
         <translation>サウンド名</translation>
     </message>
     <message>
-        <location filename="../src/settingsdialog.cpp" line="418"/>
+        <location filename="../src/settingsdialog.cpp" line="429"/>
         <source>Enter a name for this sound:</source>
         <translation>このサウンドの名前を入力してください：</translation>
     </message>
     <message>
-        <location filename="../src/settingsdialog.cpp" line="430"/>
+        <location filename="../src/settingsdialog.cpp" line="441"/>
         <source>Sound Description</source>
         <translation>サウンドの説明</translation>
     </message>
     <message>
-        <location filename="../src/settingsdialog.cpp" line="431"/>
+        <location filename="../src/settingsdialog.cpp" line="442"/>
         <source>Enter a description (optional):</source>
         <translation>説明を入力してください（オプション）：</translation>
     </message>
     <message>
-        <location filename="../src/settingsdialog.cpp" line="433"/>
-        <location filename="../src/settingsdialog.cpp" line="437"/>
+        <location filename="../src/settingsdialog.cpp" line="444"/>
+        <location filename="../src/settingsdialog.cpp" line="448"/>
         <source>Custom sound</source>
         <translation>カスタムサウンド</translation>
     </message>
     <message>
-        <location filename="../src/settingsdialog.cpp" line="443"/>
+        <location filename="../src/settingsdialog.cpp" line="454"/>
         <source>Error</source>
         <translation>エラー</translation>
     </message>
     <message>
-        <location filename="../src/settingsdialog.cpp" line="443"/>
+        <location filename="../src/settingsdialog.cpp" line="454"/>
         <source>Failed to copy sound file.</source>
         <translation>サウンドファイルのコピーに失敗しました。</translation>
     </message>
     <message>
-        <location filename="../src/settingsdialog.cpp" line="465"/>
+        <location filename="../src/settingsdialog.cpp" line="476"/>
         <source>Success</source>
         <translation>成功</translation>
     </message>
     <message>
-        <location filename="../src/settingsdialog.cpp" line="465"/>
+        <location filename="../src/settingsdialog.cpp" line="476"/>
         <source>Sound added successfully!</source>
         <translation>サウンドが正常に追加されました！</translation>
     </message>

@@ -61,18 +61,25 @@ qt_add_lupdate(SOURCE_TARGETS HurrieUp TS_FILES ${TS_FILES})
 qt_add_lrelease(TS_FILES ${TS_FILES} QM_FILES_OUTPUT_VARIABLE QM_FILES)
 
 # Copy .qm files to source directory so they can be included in resources
-add_custom_command(TARGET HurrieUp PRE_BUILD
-    COMMAND ${CMAKE_COMMAND} -E copy_if_different
-        ${CMAKE_CURRENT_BINARY_DIR}/translations/ko_KR.qm
-        ${CMAKE_CURRENT_SOURCE_DIR}/translations/ko_KR.qm
-    COMMAND ${CMAKE_COMMAND} -E copy_if_different
-        ${CMAKE_CURRENT_BINARY_DIR}/translations/en_US.qm
-        ${CMAKE_CURRENT_SOURCE_DIR}/translations/en_US.qm
-    COMMAND ${CMAKE_COMMAND} -E copy_if_different
-        ${CMAKE_CURRENT_BINARY_DIR}/translations/ja_JP.qm
-        ${CMAKE_CURRENT_SOURCE_DIR}/translations/ja_JP.qm
-    COMMENT "Copying .qm files to source directory..."
-)
+# Prefer CMake logic: glob any generated .qm files and add a copy_if_different
+# command per file. This avoids shell quoting issues and safely no-ops when no
+# .qm files exist (for example when lrelease is not available).
+file(GLOB GENERATED_QM_FILES "${CMAKE_CURRENT_BINARY_DIR}/translations/*.qm")
+if(GENERATED_QM_FILES)
+    foreach(_qm IN LISTS GENERATED_QM_FILES)
+        get_filename_component(_qm_name "${_qm}" NAME)
+        add_custom_command(TARGET HurrieUp PRE_BUILD
+            COMMAND ${CMAKE_COMMAND} -E copy_if_different "${_qm}" "${CMAKE_CURRENT_SOURCE_DIR}/translations/${_qm_name}"
+            COMMENT "Copying ${_qm_name} to source translations directory..."
+        )
+    endforeach()
+else()
+    # Provide a benign message when there are no generated QM files yet.
+    add_custom_command(TARGET HurrieUp PRE_BUILD
+        COMMAND ${CMAKE_COMMAND} -E echo "No .qm files found in ${CMAKE_CURRENT_BINARY_DIR}/translations to copy"
+        COMMENT "Skipping .qm copy (no generated files)"
+    )
+endif()
 
 # Platform-specific post-build steps
 if(WIN32)

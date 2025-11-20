@@ -35,12 +35,12 @@
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="95"/>
-        <location filename="../src/mainwindow.cpp" line="236"/>
+        <location filename="../src/mainwindow.cpp" line="245"/>
         <source>HurrieUp</source>
         <translation>허리업!</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="222"/>
+        <location filename="../src/mainwindow.cpp" line="231"/>
         <source>HurrieUp (Paused)</source>
         <translation>허리업! (일시 정지됨)</translation>
     </message>
@@ -118,58 +118,74 @@
         <translation>➕ 커스텀 음성 추가</translation>
     </message>
     <message>
-        <location filename="../src/settingsdialog.cpp" line="405"/>
+        <location filename="../src/settingsdialog.cpp" line="324"/>
+        <location filename="../src/settingsdialog.cpp" line="336"/>
+        <source>Preview</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/settingsdialog.cpp" line="324"/>
+        <source>Please select at least one complete sound to preview.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/settingsdialog.cpp" line="336"/>
+        <source>Please select at least one ring sound or voice sound to preview.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/settingsdialog.cpp" line="416"/>
         <source>Select Sound File</source>
         <translation>사운드 파일 선택</translation>
     </message>
     <message>
-        <location filename="../src/settingsdialog.cpp" line="407"/>
+        <location filename="../src/settingsdialog.cpp" line="418"/>
         <source>Audio Files (*.wav *.mp3 *.ogg *.flac *.m4a);;All Files (*.*)</source>
         <translation>오디오 파일 (*.wav *.mp3 *.ogg *.flac *.m4a);;모든 파일 (*.*)</translation>
     </message>
     <message>
-        <location filename="../src/settingsdialog.cpp" line="417"/>
+        <location filename="../src/settingsdialog.cpp" line="428"/>
         <source>Sound Name</source>
         <translation>사운드 이름</translation>
     </message>
     <message>
-        <location filename="../src/settingsdialog.cpp" line="418"/>
+        <location filename="../src/settingsdialog.cpp" line="429"/>
         <source>Enter a name for this sound:</source>
         <translation>이 사운드의 이름을 입력하세요:</translation>
     </message>
     <message>
-        <location filename="../src/settingsdialog.cpp" line="430"/>
+        <location filename="../src/settingsdialog.cpp" line="441"/>
         <source>Sound Description</source>
         <translation>사운드 설명</translation>
     </message>
     <message>
-        <location filename="../src/settingsdialog.cpp" line="431"/>
+        <location filename="../src/settingsdialog.cpp" line="442"/>
         <source>Enter a description (optional):</source>
         <translation>설명을 입력하세요 (선택사항):</translation>
     </message>
     <message>
-        <location filename="../src/settingsdialog.cpp" line="433"/>
-        <location filename="../src/settingsdialog.cpp" line="437"/>
+        <location filename="../src/settingsdialog.cpp" line="444"/>
+        <location filename="../src/settingsdialog.cpp" line="448"/>
         <source>Custom sound</source>
         <translation>커스텀 사운드</translation>
     </message>
     <message>
-        <location filename="../src/settingsdialog.cpp" line="443"/>
+        <location filename="../src/settingsdialog.cpp" line="454"/>
         <source>Error</source>
         <translation>오류</translation>
     </message>
     <message>
-        <location filename="../src/settingsdialog.cpp" line="443"/>
+        <location filename="../src/settingsdialog.cpp" line="454"/>
         <source>Failed to copy sound file.</source>
         <translation>사운드 파일 복사에 실패했습니다.</translation>
     </message>
     <message>
-        <location filename="../src/settingsdialog.cpp" line="465"/>
+        <location filename="../src/settingsdialog.cpp" line="476"/>
         <source>Success</source>
         <translation>성공</translation>
     </message>
     <message>
-        <location filename="../src/settingsdialog.cpp" line="465"/>
+        <location filename="../src/settingsdialog.cpp" line="476"/>
         <source>Sound added successfully!</source>
         <translation>사운드가 성공적으로 추가되었습니다!</translation>
     </message>
